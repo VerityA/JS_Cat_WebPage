@@ -1,0 +1,34 @@
+#heading {
+  text-align: center;
+}
+
+#cats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 25vw;
+}
+
+li {
+  margin: 0.5rem;
+  list-style-type: none;
+}
+
+
+img {
+  margin: 8px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.selected {
+  opacity: 0.5;
+  border: 1px solid dodgerblue;
+}
